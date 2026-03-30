@@ -1,6 +1,29 @@
 # System Design Mentor
 
-A multi-agent chat application that helps users learn system design through a structured 28-topic syllabus, practice questions, and mock interviews. Built with LangGraph, Azure OpenAI, and FastAPI.
+> **A multi-agent chat application** that helps users learn system design through a structured 28-topic syllabus, practice questions, and mock interviews. Built with LangGraph, Azure OpenAI, and FastAPI.
+
+[![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/downloads/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688)](https://fastapi.tiangolo.com/)
+[![Azure OpenAI](https://img.shields.io/badge/Azure-OpenAI-0078D4)](https://azure.microsoft.com/en-us/products/ai-services/openai-service/)
+[![LangChain](https://img.shields.io/badge/LangChain-Community-1f425f)](https://python.langchain.com/)
+[![GitHub API](https://img.shields.io/badge/GitHub-API-181717)](https://docs.github.com/en/rest)
+
+---
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Architecture](#architecture)
+- [Features](#features)
+- [Project Structure](#project-structure)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Configuration](#configuration)
+- [Running the App](#running-the-app)
+- [API Endpoints](#api-endpoints)
+- [Environment Variables](#environment-variables)
+- [Security Notes](#security-notes)
+- [License](#license)
 
 ---
 
@@ -170,3 +193,15 @@ The server starts at `http://localhost:8000`. Open that URL in your browser to u
 
 - Do not commit your `.env` file — it contains your Azure credentials
 - The guardrail node uses regex pattern matching and keyword lists; it is not a substitute for Azure's built-in content filtering, which also runs independently
+
+---
+
+## 📄 License
+
+This project is licensed under the Apache License 2.0 — see [LICENSE](LICENSE) for details.
+
+---
+
+**Last Updated**: March 2026
+**Python**: 3.11+
+**Status**: Active
